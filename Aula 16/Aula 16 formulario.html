@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulário</title>
+
+    </head>
+    <body>
+        <form action="#">
+            <label for="">Nome</label>
+            <input type="text" nome="nome" id="nome" placeholder="Digite o seu nome completo: " required>
+            <br><br>
+            <label for="email">E-mail</label>
+            <input type="email" nome="email" id="email" placeholder="exemplo@gmail.com">
+            <br><br>
+            <label for="senha">Senha</label>
+            <input type="password" nome="senha" id="senha" placeholder="Senha com 8 caracteres" minlength="8" maxlength="8">
+            <br><br>
+            <label for="telefone">Telefone</label>
+            <input type="tel" nome="telefone" id="telefone">
+            <br><br>
+            <label for="data">Data de nascimento</label>
+            <input type="date" nome="data" id="data">
+            <p>Escolha o seu turno: </p>
+            <input type="radio" name="turno" id="manha">
+            <label for="manha">Manhã</label>
+            <input type="radio" name="turno" id="tarde">
+            <label for="tarde">Tarde</label>
+            <input type="radio" name="turno" id="noite">
+            <label for="noite">Noite</label>
+        </form>
+    </body>
+</html>
