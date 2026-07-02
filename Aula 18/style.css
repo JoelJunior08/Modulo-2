@@ -1,0 +1,17 @@
+.caixa{
+    background-color: rgb(60, 172, 144);
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: teal;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
